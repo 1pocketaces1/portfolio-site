@@ -2,23 +2,29 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import SchoolPage from './pages/School/School';
+import Twenty18Page from './pages/2018/2018';
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          My Software development journey.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
+
+      <div className={"page"}>
+        <Twenty18Page />
+      </div>
+
+      <div className={"buttonLeft"}>
+        <button class={"btn"}><i class="fa fa-arrow-left"></i></button>
+      </div>
+
+      <div className={"buttonRight"}>
+        <button class="btn"><i class="fa fa-arrow-right"></i></button>
+      </div>
     </div>
   );
 }

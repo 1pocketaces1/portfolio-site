@@ -1,0 +1,16 @@
+.appPreview {
+  display: flex;
+  flex-direction: row;
+  height: 60%;
+  border: 2px black solid;
+}
+
+.previewText {
+  flex: 2;
+}
+
+.previewCarousel {
+  flex: 1;
+  flex-direction: row;
+  border: 2px black solid;
+}
